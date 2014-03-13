@@ -6,7 +6,7 @@
     "airport"
   ],
   "repository": "KenanY/icao",
-  "license": "MIT",
+  "license": "Public domain",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "main": "index.js",
   "files": [
