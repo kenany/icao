@@ -13,7 +13,7 @@ icao['KOAK'];
 
 ## Installation
 
-``` javascript
+``` bash
 $ npm install icao
 ```
 
