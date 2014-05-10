@@ -19,6 +19,10 @@ $ npm install icao
 
 ## API
 
+``` javascript
+var icao = require('icao');
+```
+
 ### icao
 
 An _Object_ whose keys are ICAO codes and values are arrays with the latitude
