@@ -12,6 +12,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "test": "tape test/index.js"
+  },
   "devDependencies": {
     "lodash.isplainobject": "^2.4.1",
     "tape": "^2.4.2"
