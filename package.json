@@ -13,9 +13,13 @@
     "index.js"
   ],
   "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run -s lint",
     "test": "tape test/index.js"
   },
   "devDependencies": {
+    "@kenan/eslint-config": "^5.0.0",
+    "eslint": "^4.15.0",
     "lodash.isplainobject": "^4.0.6",
     "tape": "^4.6.0"
   }
