@@ -1,3 +1,7 @@
+'use strict';
+
+/* eslint-disable quote-props */
+
 var ICAO_CODES = {
   'AGAF': [-9.19138888889, 160.948333333],
   'AGAR': [-9.85472222222, 161.979166667],
