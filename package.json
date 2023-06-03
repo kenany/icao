@@ -5,25 +5,32 @@
   "keywords": [
     "airport"
   ],
-  "repository": "KenanY/icao",
+  "repository": "github:kenany/icao",
   "license": "SEE LICENSE IN LICENSE.txt",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
   "files": [
-    "index.js"
+    "CHANGELOG.md",
+    "index.js",
+    "LICENSE.txt"
   ],
   "engines": {
-    "node": "14 || 16 || >=18"
+    "node": "16 || 18 || >=20"
   },
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run -s lint",
-    "test": "tape test/index.js"
+    "test": "tape test/index.js",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^10.0.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^8.41.0",
     "lodash.isplainobject": "^4.0.6",
+    "semantic-release": "^21.0.3",
     "tape": "^5.6.3"
   }
 }

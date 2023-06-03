@@ -2,6 +2,7 @@
 
 /* eslint-disable quote-props */
 
+/** @type {{ [code: string]: [number, number]; }} */
 const ICAO_CODES = {
   'AGAF': [-9.19138888889, 160.948333333],
   'AGAR': [-9.85472222222, 161.979166667],
