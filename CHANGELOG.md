@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/kenany/icao/compare/2.0.0...3.0.0) (2023-09-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v16 is no longer supported.
+
+### Features
+
+* drop Node.js v16 ([89ef77e](https://github.com/kenany/icao/commit/89ef77e54d03ca998475c86e61cb1e7ef81fe1ba))
+
 ## [2.0.0](https://github.com/kenany/icao/compare/1.0.1...2.0.0) (2023-06-03)
 
 
