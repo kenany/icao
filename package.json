@@ -31,6 +31,6 @@
     "eslint": "8.57.1",
     "lodash.isplainobject": "4.0.6",
     "semantic-release": "25.0.4",
-    "tape": "5.10.1"
+    "tape": "5.10.2"
   }
 }
